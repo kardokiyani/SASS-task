@@ -38,11 +38,6 @@ $colours: (
   justify-content: center;
 }
 
-.email-style {
-  display: flex;
-  justify-content: center;
-}
-
 .password-style {
   display: flex;
   justify-content: center;
@@ -155,6 +150,7 @@ $colours: (
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   width: 500px;
   margin: 10px;
+  font-size: 1rem;
 }
 
 .contactFooter {
@@ -213,4 +209,15 @@ $colours: (
 
 .card-img-top {
   width: 500px;
+}
+
+.form-group,
+.form-check {
+  font-size: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.form-control {
+  width: 250px;
+  padding: 5px;
 }
